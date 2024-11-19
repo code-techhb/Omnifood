@@ -9,9 +9,14 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
       rel="stylesheet"
     />
+
     <link rel="stylesheet" href="./css/general.css" />
     <link rel="stylesheet" href="./css/styles.css" />
     <link rel="stylesheet" href="./css/queries.css" />
+    <script
+      defer
+      src="https://unpkg.com/browse/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js"
+    ></script>
     <script defer src="js/script.js"></script>
     <title>OmniFood</title>
   </head>
@@ -25,11 +30,13 @@
 
       <nav class="main-nav">
         <ul class="main-nav-list">
-          <li><a href="#" class="main-nav-link">How it works</a></li>
-          <li><a href="#" class="main-nav-link">Meals</a></li>
-          <li><a href="#" class="main-nav-link">Testimonials</a></li>
-          <li><a href="#" class="main-nav-link">Pricing</a></li>
-          <li><a href="#" class="main-nav-link nav-cta">Try for free</a></li>
+          <li><a href="#how" class="main-nav-link">How it works</a></li>
+          <li><a href="#meal" class="main-nav-link">Meals</a></li>
+          <li>
+            <a href="#testimonials" class="main-nav-link">Testimonials</a>
+          </li>
+          <li><a href="#price" class="main-nav-link">Pricing</a></li>
+          <li><a href="#cta" class="main-nav-link nav-cta">Try for free</a></li>
         </ul>
       </nav>
 
@@ -54,8 +61,8 @@
               nutritional needs.
             </p>
             <!-- buttons -->
-            <a href="#" class="btn btn--full mr-sm">Start Eating Well</a>
-            <a href="#" class="btn btn--outline">Learn more &darr;</a>
+            <a href="#cta" class="btn btn--full mr-sm">Start Eating Well</a>
+            <a href="#how" class="btn btn--outline">Learn more &darr;</a>
             <!-- customers -->
             <div class="delivered-meals">
               <div class="delivered-imgs">
@@ -121,7 +128,7 @@
       </section>
 
       <!-- HOW it works section -->
-      <section class="section-how">
+      <section class="section-how" id="how">
         <!-- headings -->
         <div class="container-centered center-text">
           <span class="subheading">How it works</span>
@@ -200,7 +207,7 @@
       </section>
 
       <!-- Meal section -->
-      <section class="section-meals">
+      <section class="section-meals" id="meal">
         <!-- headings -->
         <div class="container-centered center-text">
           <span class="subheading">Meals</span>
@@ -322,7 +329,7 @@
       </section>
 
       <!-- testimonials -->
-      <section class="section-testimonials">
+      <section class="section-testimonials" id="testimonials">
         <!-- headings -->
         <div class="testimonials-container">
           <span class="subheading">Testimonials</span>
@@ -474,7 +481,7 @@
       </section>
 
       <!-- pricing section -->
-      <section class="section-pricing">
+      <section class="section-pricing" id="price">
         <div class="container-centered">
           <span class="subheading">Pricing</span>
           <h2 class="heading-secondary">
@@ -586,7 +593,7 @@
       </section>
 
       <!-- CTA section -->
-      <section class="section-cta">
+      <section class="section-cta" id="cta">
         <div class="container-centered">
           <div class="cta-grid">
             <div class="cta-text-box">
