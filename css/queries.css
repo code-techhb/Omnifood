@@ -119,10 +119,11 @@
   /* mobile navigation */
   .btn-mobile-nav {
     display: block;
+    z-index: 9999;
   }
 
   .main-nav {
-    background-color: rgba(225, 233, 233, 0.772);
+    background-color: #f7d8bd;
     position: absolute;
     top: 0;
     left: 0;
