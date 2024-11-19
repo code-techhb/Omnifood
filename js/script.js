@@ -39,3 +39,25 @@ alllinks.forEach(function (link) {
     }
   });
 });
+
+// sticky navigation
+const sectionHeroEl = document.querySelector(".section-hero");
+const observer = new IntersectionObserver(
+  function (entries) {
+    const entry = entries[0];
+    if (!entry.isIntersecting) {
+      document.body.classList.add("sticky");
+    }
+
+    if (entry.isIntersecting) {
+      document.body.classList.remove("sticky");
+    }
+  },
+  {
+    // root in the viewport
+    root: null,
+    threshold: 0,
+    rootMargin: "-80px", //height of the nav bar
+  }
+);
+observer.observe(sectionHeroEl);
