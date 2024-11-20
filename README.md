@@ -10,7 +10,7 @@ Omnifood is a fictional 365-days-a-year subscription service offering personaliz
 - **Enhance interactivity**: Implement features like smooth scrolling, responsive navigation, and call-to-action buttons.
 
 ## Features
-- **Fully Responsive Design **: Optimized for all devices—desktop, tablet, and mobile.
+- **Fully Responsive Design**: Optimized for all devices—desktop, tablet, and mobile.
 - **Modern Layout**: Uses CSS Grid and Flexbox for a clean, professional structure.
 - **Hero Section**: Eye-catching header with a call-to-action.
 - **Interactive Navigation**: Mobile-friendly navigation bar with a toggle button.
