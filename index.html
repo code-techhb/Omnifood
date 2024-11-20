@@ -8,6 +8,7 @@
       content="OmniFood is an AI-powered food subscription that will make you eat healthy again, 365 days per year. It's tailored to your personal taste and needs."
     />
 
+    <!-- Favicons -->
     <link rel="icon" href="images/browser favicon.png" />
     <link rel="apple-touch-icon" href="/images/apple-touch-icon.png" />
     <link rel="manifest" href="manifest.webmanifest" />
@@ -107,11 +108,16 @@
           </div>
           <!-- image -->
           <div class="hero-image-box">
-            <img
-              src="/images/hero.png"
-              class="hero-img"
-              alt="Woman enjoying food, meals in storage conatiners and food bowls on a table."
-            />
+            <!--optimization -->
+            <picture>
+              <source srcset="images/hero.webp" type="image/webp" />
+              <source srcset="images/hero.png" type="image/png" />
+              <img
+                src="/images/hero.png"
+                class="hero-img"
+                alt="Woman enjoying food, meals in storage conatiners and food bowls on a table."
+              />
+            </picture>
           </div>
         </div>
       </section>
